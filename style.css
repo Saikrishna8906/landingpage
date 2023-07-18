@@ -1,0 +1,258 @@
+
+header{
+    top: 0;
+    display: flex;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #6f6af7;
+    color: white;
+    justify-content: space-between;
+    z-index: 100;
+    
+
+}
+.leftsection{
+    display: flex;
+    position: fixed;
+    height: 80px;
+    width: 7.5em;
+    font-size: 25px;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+margin-right: 100px;
+}
+.middlesection{
+margin-left: 280px;
+    display: flex;
+    flex: 1;
+    height: 80px;
+    width: 350px;
+    font-size: 25px;
+    font-family: cursive;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+select{
+    border-style:hidden;
+    background-color: #6f6af7;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.searchbardiv{
+    padding-right: 20px;
+    
+}
+#searchbar{
+    height: 35px;
+    width: 230px;
+    border: none;
+    border-radius: 20px;
+
+}
+#searchbar::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.rightsection{
+    display: flex;
+    height: 80px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.left{
+    position: sticky;
+    float: right;
+    margin-top: 180px;
+    width: 112px;
+    right: 0;
+    top: 5.5em;
+   
+    
+}
+body::after .left{
+    position: sticky;
+    top: 100px;
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 1542px;
+    height: 1580px;
+    
+}
+.topmain{
+    display: flex;
+    margin-top: 80px;
+    height: 507px;
+}
+
+.box{
+   
+    margin-left: 93px;
+    width:960px ;
+    height: 495px;
+    background-color:#E5D8FF;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+
+}
+.miidlemain{
+    width: 1542px;
+    height: 250px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.div1{
+    width: 337px;
+    height: 145px;
+    border-radius: 11px;
+    background-color:#929DFF;
+    font-size: 24px;
+    padding-left: 20px;
+    color: white;
+}
+.div2{
+        width: 337px;
+        height: 145px;
+        border-radius: 11px;
+        background-color:#734CF2;
+        font-size: 24px;
+    padding-left: 20px;
+    color: white;
+}
+.div3{
+    color: white;
+            width: 337px;
+            height: 145px;
+            border-radius: 11px;
+            background-color:#D288FF;
+            font-size: 24px;
+    padding-left: 20px;
+}
+.div4{
+    color: white;
+    width: 337px;
+    height: 145px;
+    border-radius: 11px;
+    background-color: #000000;
+    font-size: 24px;
+    padding-left: 20px;
+}
+.bottommain{
+    background-color: #483EFF;
+    width: 1542px;
+    height: 717px;
+}
+.info{
+    
+    background-color: #BCE0F6;
+    width: 397px;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: DM Sans;
+    border: none;
+    margin-top: 80px;
+    margin-left: 50px;
+    border-radius: 5px;
+
+}
+.bookmarks{
+    color: #FFFFFF;
+    background-color:transparent;
+    width: 397px;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: DM Sans;
+    border: 1.5px solid #FFFFFF;
+    margin-top: 80px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.settings{
+    color: #FFFFFF;
+    background-color:transparent;
+    width: 397px;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: DM Sans;
+    border: 1.5px solid #FFFFFF;
+    margin-top: 80px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.lastbox{
+    position:absolute;
+    width: 1004px;
+    height: 656px;
+    background-color: #FFFFFF;
+    margin-top: -615px;
+    margin-left: 510px;
+    border-radius: 19px;
+}
+.para{
+font-size: 38px;
+font-weight: 700;
+font-family: Inter;
+padding-left: 50px;
+}
+.para2{
+    font-size: 24px;
+    padding-left: 90px;
+    
+}
+button{
+    font-size:2em;
+    justify-self: center;
+    width: 207px;
+    height: 78px;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0.2em 0.2em 0.5em rgba(17, 17, 17, 0.527);
+}
+.image{
+  position: fixed;
+  
+ right: 0;
+ bottom: 0;
+  margin-right: 8em;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 0 0.8em #000000;
+  
+}
